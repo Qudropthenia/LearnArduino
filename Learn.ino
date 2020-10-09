@@ -67,7 +67,6 @@ void showColor() {
 
   LEDS.showColor(CRGB(r, g, b));
   FastLED.setBrightness(BRIGHT);
-  //LEDS.showColor(CRGB(255, 0, 0));
 }
 
 void clearData() {
